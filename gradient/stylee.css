@@ -56,7 +56,7 @@ input[type="color"]::-webkit-color-swatch {
 }
 .directions {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 0.6rem;
     flex-wrap: wrap;
     width: 100%;
     gap: 5px;
@@ -106,7 +106,7 @@ input[type="color"]::-webkit-color-swatch {
     background-color: transparent !important;
 }
 .result .copy {
-    margin-top: 15px;
+    margin-top: 8px;
     padding: 4px 10px;
     border: none;
     outline: none;
@@ -128,7 +128,7 @@ input[type="color"]::-webkit-color-swatch {
     border: none;
     outline: none;
     font-size: 17px;
-    margin-top: 1.2rem;
+    margin-top: 0.5rem;
     cursor: pointer;
 }
 
