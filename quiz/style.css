@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    
+    background-image: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+   /*background-color: blue;*/
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 50vh;
+    font-size: 1.2rem;
+}
+
+    
+   
+
+.quiz-header{
+    background-color: beige;
+    border-radius: 15px 15px 15px 0;
+    box-shadow: 0 0 10px 5px rgba(14, 14, 14, 0.1);
+    width: 400px;
+    height: 280px;
+    padding: 0.5em;
+}
+
+h2 {
+    padding: 0.1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    border-radius: 15px;
+    background-color: rgba(245, 245, 220, 0.597);
+}
+li:hover {
+    background-color: rgb(233, 233, 211);
+}
+
+ul li {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #b55981;
+    color: white;
+    cursor: pointer;
+    border: none;
+    display: block;
+    font-family: inherit;
+    font-size: 1.5rem;
+    max-width: 100%;
+    padding: 1rem;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0 0 10px 5px rgba(14, 14, 14, 0.1);
+}
+
+button:hover {
+    background-color: #a84771;
+}
+
+button:focus {
+    background-color: #8f4165;
+    outline: none;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+}
+
+
+.hud-prefix {
+    position: absolute;
+    top: 10%;
+    font-size: 1.3rem;
+}
+
+.hud-main-text {
+    margin-top: 35px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.cheat {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    height: 40px;
+    width: 50px;
+    background-color: rgba(127, 2, 212, 0.448);
+    margin: 2px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.cheat:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgba(128, 2, 212, 0.768);
+}
+
+.restart {
+    position: fixed;
+    top: 380px;
+    right: 0;
+    display: flex;
+    height: 40px;
+    width: 50px;
+    background-color: rgba(127, 2, 212, 0.448);
+    margin: 2px;
+    border-radius: 15px;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.restart:hover {
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: rgba(128, 2, 212, 0.932);
+}
+
+.background {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+    background-color: purple;
+    background-image: linear-gradient(90deg, rgb(161, 0, 255) 0%, rgb(113, 196, 255) 100%);
+    position: absolute;
+    top: 5px;
+    left: 2px;
+}
+.background:hover {
+    cursor: pointer;
+}
+
+h3 {
+    position: absolute;
+    top: 0;
+    top: -5%;
+    font-size: clamp(30px, 4vw, 4rem);
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    background: #515ada, purple, red;
+letter-spacing: 5px;
+}

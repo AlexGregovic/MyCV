@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7389bf7a39.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body>
+
+    <div class="scrollToTop-btn flex-center active">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <div title="Dark Mode" class="theme-btn flex-center slow-color-change" id="theme-btn">
+        <i class="far fa-moon" id="moon-icon"></i>
+        <i class="fas fa-sun" id="sun-icon"></i>
+    </div>
+
+    <header>
+        <div class="nav-bar">
+            <img src="images/AG flat design logo.png" alt="" width="70px" height="70px">
+            <a href="#" class="logo">Aleksandar</a>
+            <div class="navigation">
+                <div class="nav-items">
+                    <a class="active" href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <section class="home flex-center" id="home">
+        <div class="home-container">
+            <div class="media-icons">
+                <a href="https://github.com/AlexGregovic"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/walldecor_studio_201/"><i class="fab fa-instagram"></i></a>
+                <a href="https://rs.linkedin.com/in/aleksandar-gregovic-57789a1b5"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <div class="info">
+                <h2>Hi, i am Aleksandar</h2>
+                <h3>Front-end Developer</h3>
+                <p>I create stunning websites for your business, Higly experienced in web design and development</p>
+                <a href="" class="btn">Contact Me <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+            <div class="home-img">
+                <img src="images/Untitled-Artwork.png" alt="" width="500px">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">Scroll Down <i class="fas fa-arrow-down"></i></a>
+    </section>
+
+    <section class="about section" id="about">
+        <div class="container flex-center">
+            <h1 class="section-title-01">About Me</h1>
+            <h2 class="section-title-02">About Me</h2>
+            <div class="content flex-center">
+                <div class="about-img">
+                    <img src="images/Subject.png" alt="">
+                </div>
+                <div class="about-info">
+                    <div class="description">
+                        <h3>I'm Aleksandar</h3>
+                        <h4>A Junior <span>Front-End Developer</span> based in Serbia</h4>
+                        <p> I design and develop services for customers specializing creating stylish modern websites,games and online stores. Check out my Portfolio </p>
+                    </div>
+                    <ul class="proffesional-list">
+                        <li class="list-item">
+                            <h3>2+</h3>
+                            <span>Years of experience in Web Development and Design</span>
+                        </li>
+                        <li class="list-item">
+                            <h3>100+</h3>
+                            <span>Drawing Projects,logo designs in Procreate</span>
+                        </li>
+                        <li class="list-item">
+                            <h3>5+</h3>
+                            <span>Years of experience in Graphic Design</span>
+                        </li>
+                    </ul>
+                    <a href="" class="btn">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills section" id="skills">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Skills</h1>
+            <h2 class="section-title-02">Skills</h2>
+            <div class="content">
+                <div class="skills-description">
+                    <h3>Work experience & Skills</h3>
+                    <p>To be Continued</p>
+                </div>
+                <div class="skills-info education-all">
+                    <div class="education">
+                        <h4><label>Experience</label></h4>
+                        <ul class="edu-list">
+                            <li class="item">
+                                <span class="year">2022-2023</span>
+                                <p>Upwork - Front End Freelance</p>
+                            </li>
+                            <li class="item">
+                                <span class="year">2021-2022</span>
+                                <p>Bi Solutions - Internship</p>
+                            </li>
+                            <li class="item">
+                                <span class="year">2017-2020</span>
+                                <p>B&B Agency-Advertising , comercial designing, site designing with HTML and CSS</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="education">
+                        <h4><label>Skills</label></h4>
+                        <ul class="bars">
+                            <li class="bar">
+                            <div class="info">
+                                <span>HTML</span>
+                                <br>
+                                <span>CSS</span>
+                                <br>
+                                <span>JavaScript</span>
+                                <br>
+                                <span>React</span>
+                                <br>
+                                <span>Vue</span>
+                                <br>
+                                <span>Git</span>
+                                <br>
+                                <span>Github</span>
+                                <br>
+                                <span>ArtDesign</span>
+                                <br>
+                                <span>Procreate</span>
+                                <br>
+                                <span>Photoshop</span>
+                                <br>
+                                <span>English</span>
+                                <br>
+                                <span>German</span>
+                                <br>
+                                <span>UI/UX Design</span>
+                            </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="projects section" id="projects">
+        <div class="container flex-center">
+            <h1 class="section-title-01">Projects</h1>
+            <h2 class="section-title-02">Projects</h2>
+            <div class="content">
+                <div class="projects-description">
+                    <h3>what i provide</h3>
+                </div>
+                <ul class="project-list">
+                    <li class="project-container">
+                        <div class="project-card">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <h3>UI/UX Consulting</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                        </div>
+                        <div class="project-modal flex-center">
+                            <div class="project-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>Ui/UX Consultancy</h3>
+                                <h4>What is UX consultancy?</h4>
+                                <p>UX Consulting helps companies improve their product's overall usability and optiize expenses by implementing the right UX processes, methods, and tools.</p>
+                                <h4>What i provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i>Establish the right UX processes</li>
+                                    <li><i class="fas fa-check-circle"></i>Create exceptional user experiences</li>
+                                    <li><i class="fas fa-check-circle"></i>Discover new business opportunities</li>
+                                    <li><i class="fas fa-check-circle"></i>Save resources</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project-container">
+                        <div class="project-card">
+                            <i class="fas fa-photo-video"></i>
+                            <h3>Branding & Design</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                        </div>
+                        <div class="project-modal flex-center">
+                            <div class="project-modal-body">
+                                <i class="fas fa-photo-video modal-close-btn"></i>
+                                <h3>Branding & Design</h3>
+                                <h4>What is Brand & Design?</h4>
+                                <p>Brand Design can be Defined as one of the crucial marketing practices of creating the name, logo, design, and the symbolic elements related to the brand to create a distinctive identity in comparison to the other brands in the market and also providing impetus to the product differentiation</p>
+                                <h4>What i provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i>Logo Design</li>
+                                    <li><i class="fas fa-check-circle"></i>Banner Design</li>
+                                    <li><i class="fas fa-check-circle"></i>Visual Identity</li>
+                                    <li><i class="fas fa-check-circle"></i>Business Cards & Business Systems</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project-container">
+                        <div class="project-card">
+                            <i class="fas fa-file-code"></i>
+                            <h3>Web Development</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                        </div>
+                        <div class="project-modal flex-center">
+                            <div class="project-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>Web Development</h3>
+                                <h4>What is Web Development?</h4>
+                                <p>Web development services are used to design, build, support, and evolve all types of web based software</p>
+                                <h4>What i provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i>Web application development</li>
+                                    <li><i class="fas fa-check-circle"></i>Testing</li>
+                                    <li><i class="fas fa-check-circle"></i>Maintenance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="project-container">
+                        <div class="project-card">
+                            <i class="fas fa-align-left"></i>
+                            <h3>Content Writing</h3>
+                            <div class="learn-more-btn">Learn More <i class="fas fa-long-arrow-alt-right"></i></div>
+                        </div>
+                        <div class="project-modal flex-center">
+                            <div class="project-modal-body">
+                                <i class="fas fa-times modal-close-btn"></i>
+                                <h3>Content Writing</h3>
+                                <h4>What is Content Writing?</h4>
+                                <p>Content writing is the process of planning, writing and editing web content, typically for digital marketing purposes.</p>
+                                <h4>What i provide</h4>
+                                <ul>
+                                    <li><i class="fas fa-check-circle"></i>Web content writing</li>
+                                    <li><i class="fas fa-check-circle"></i>Blog writing for websites</li>
+                                    <li><i class="fas fa-check-circle"></i>Social media content</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="project">
+            <h2>Some Projects:</h2>
+        </div>
+            <ul class="project-3d">
+    <li><div class="game-container">
+        <iframe id="scaled-frame" src="gradient/game.html" frameborder="0" width="450px" height="420px"></iframe>
+        <h3>Gradient Generator</h3>
+        <p><a href="https://golden-raindrop-284e79.netlify.app/">https://GradientGenerator.com</a></p>
+      </div>
+      </li>
+      <li>
+    <div class="game-container">
+        <iframe id="scaled-frame" src="tetris/tetris.html" frameborder="0" width="450px" height="420px"></iframe>
+        <h3>Ping Pong Game</h3>
+        <p><a href="https://splendid-truffle-35db5e.netlify.app/">https://Ping-Pong.com</a></p>
+      </div>
+      </li>
+      <li>
+    <div class="game-container">
+        <iframe id="scaled-frame" src="quiz/index.html" frameborder="0" width="450px" height="420px"></iframe>
+        <h3>Trivia Game</h3>
+        <p><a href="https://deluxe-brigadeiros-9e7e1c.netlify.app/">https://Tricky-trivia.com</a></p>
+      </div></li>
+      <li>
+        <div class="game-container">
+            <iframe id="scaled-frame" src="weather/index.html" frameborder="0" width="450px" height="420px"></iframe>
+            <h3>Live Weather Site</h3>
+            <p><a href="https://remarkable-banoffee-872d55.netlify.app/">https://LIVE-Weather.com</a></p>
+        </div>
+      </li>
+            </ul>
+        </div>
+<div class="get-in-touch sub-section">
+    <div class="container">
+        <div class="content flex-center">
+            <div class="contact-card flex-center">
+                <div class="title">
+                    <h4>Let's Talk</h4>
+                    <h3>About Your</h3>
+                    <h2>Next Project</h2>
+                </div>
+                <div class="contact-btn">
+                    <a href="mailto:aleksandarg1111@gmail.com" class="btn"> Get In Touch <i class="fas fa-paper-plane"></i></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+    </section>
+    <section id="contact" class="contact section">
+        <div class="container flex-center">
+        <h1 class="section-title-01">Contact Me</h1>
+        <h2 class="section-title-02">Contact Me</h2>
+        <div class="content">
+        <div class="contact-left">
+            <h2>Let's discuss your project</h2>
+            <ul class="contact-list">
+            <li>
+                <h3 class="item-title"><i class="fas fa-envelope"></i>Email Address</h3>
+                <span><a href="mailto:aleksandarg1111@gmail.com">aleksandarg1111@gmail.com</a></span>
+            </li>
+            <li>
+                <h3 class="contact-list"><i class="fas fa-phone"></i>Phone</h3>
+                <span>+381 64-957-0423</span>
+            </li>
+        </ul>
+</div>
+            <div class="contact-right">
+                <p>I'm always open to discussing product <br><span> desing work or partnership.</span></p>
+            <form action="" class="contact-form">
+                <div class="first-row">
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="second-row">
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="text" placeholder="Subject" id="subject">
+                </div>
+                <div class="third-row">
+                    <textarea name="message" id="message" rows="7" placeholder="Message"></textarea>
+                </div>
+                <button onclick="showMessage()" class="btn" type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+            </div>
+        </div>
+    </div>
+            
+            <div class="social-menu">
+                <ul>
+                  <li><a href="https://github.com/AlexGregovic"><i class="fa-brands fa-github"></i></a></li>
+                  
+                  <li><a href="https://www.instagram.com/walldecor_studio_201/"><i class="fa-brands fa-instagram"></i></a></li>
+                  
+                  <li><a href="https://rs.linkedin.com/in/aleksandar-gregovic-57789a1b5"><i class="fa-brands fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+              
+          
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="about group">
+                <h2>Aleksandar</h2>
+                <p>Front-end Developer</p>
+                <a href="#about">About Me</a>
+            </div>
+            <div class="hr"></div>
+            <div class="info group">
+                <h3>More</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="hr"></div>
+            
+            
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
