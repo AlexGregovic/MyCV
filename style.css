@@ -103,8 +103,8 @@ header{
 
 header .nav-bar img{
     position: absolute;
-    top: -25%;
-    left: 110px;
+    top: -15%;
+    left: 120px;
 }
 
 header.sticky{
@@ -411,7 +411,7 @@ header.sticky .nav-bar{
     box-shadow: var(--box-shadow);
     border-bottom: 3px solid var(--second-color);
     padding: 20px;
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 6px;
     transition: 3s ease;
 }
@@ -438,6 +438,7 @@ header.sticky .nav-bar{
     padding: 6px;
     transition: .3s ease;
     border-bottom: 3px solid var(--second-color);
+    border-radius: 5px;
 }
 
 
